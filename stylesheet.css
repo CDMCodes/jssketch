@@ -18,3 +18,19 @@ body {
   height: 750px;
   margin: 10px auto;
 }
+
+.pixRow{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid gray;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
