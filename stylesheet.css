@@ -29,10 +29,13 @@ body {
 
 .pixel {
   background-color: white;
-  /*border: 1px solid gray;*/
+  border: 1px solid gray;
   /*width: 750/16px;*/
   height: 100%;
   display: inline-block;
   /*margin: 3px;*/
   padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
