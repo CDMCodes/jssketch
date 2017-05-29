@@ -18,4 +18,8 @@ $(document).ready(function(){
       $(".pixel").css({"width":size + "%"})
     }
     //console.log(size);
+
+    $('.pixel').on('mouseenter',function(){
+      $(this).css("background-color","black");
+    })
 });
