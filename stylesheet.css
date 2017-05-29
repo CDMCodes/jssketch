@@ -24,16 +24,13 @@ body {
   margin: 0;
   width: 100%;
   /*border: 1px solid blue;*/
-  /*height: 750/16px;*/
 }
 
 .pixel {
   background-color: white;
   border: 1px solid gray;
-  /*width: 750/16px;*/
   height: 100%;
   display: inline-block;
-  /*margin: 3px;*/
   padding: 0;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
