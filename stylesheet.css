@@ -23,14 +23,20 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
+  /*border: 1px solid blue;*/
+  /*height: 750/16px;*/
 }
 
 .pixel {
   background-color: white;
-  border: 1px solid gray;
-  width: 10px;
-  height: 10px;
+  /*border: 1px solid gray;*/
+  /*width: 750/16px;*/
+  height: 100%;
   display: inline-block;
-  margin: 0;
+  /*margin: 3px;*/
   padding: 0;
+}
+
+.pixel:hover{
+  background-color:grey;
 }
